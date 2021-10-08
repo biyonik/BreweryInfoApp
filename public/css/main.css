@@ -1,0 +1,27 @@
+
+.navbar-item img#main_logo {
+    width:128px;
+    height:128px;
+    max-height:128px;
+}
+
+.bd-hero.bd-is-expo {
+    background-color: #fffaeb;
+}
+
+.bd-hero strong {
+    color: #946c00;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-img {
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  auto;
+}

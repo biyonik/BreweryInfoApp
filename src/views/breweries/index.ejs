@@ -1,0 +1,9 @@
+<%- include('../_partials/navbar_partial') %>
+<div class="columns is-multiline">
+    <% allBreweries.forEach(function(brewery, index) { %>
+        <div class="column is-4">
+            <%- include('../_partials/brewery_card_partial', {brewery, images, index}) %>
+        </div>
+    <% }) %>
+</div>
+
